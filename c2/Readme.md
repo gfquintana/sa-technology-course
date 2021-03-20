@@ -7,7 +7,7 @@
 ## Contenido
 
 - Conceptos generales
-- Closures
+- *Closures*
 - Operaciones Asincrónicas
 
 ### Conceptos generales
