@@ -2,7 +2,7 @@
 
 
 
-![jsbook](/Users/gerardoquintana/ar/sa-technology-course/c2/imagenes/jsbook.jpg)
+![jsbook](/c2/imagenes/jsbook.jpg)
 
 ## Contenido
 
