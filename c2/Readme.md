@@ -51,7 +51,7 @@
 
 `}`
 
-`logName(); // logs 'Martin'``
+``logName(); // logs 'Martin'```
 
 Al definir una función se crea un scope local que existe solo dentro del cuerpo de esa función.
 
@@ -136,7 +136,7 @@ Las clousures nos permite crear funciones “privadas” y factories de funcione
 
 `}`
 
-`// Make and serve the burger``
+``// Make and serve the burger```
 
 `makeBurger(function (burger) => {`
 
@@ -156,21 +156,21 @@ Las clousures nos permite crear funciones “privadas” y factories de funcione
 
 `})`
 
-const makeBurger = () => {
+`const makeBurger = () => {`
 
- return getBeef()
+ `return getBeef()`
 
-  .then(beef => cookBeef(beef))
+  `.then(beef => cookBeef(beef))`
 
-  .then(cookedBeef => getBuns(beef))
+  `.then(cookedBeef => getBuns(beef))`
 
-  .then(bunsAndBeef => putBeefBetweenBuns(bunsAndBeef));
+  `.then(bunsAndBeef => putBeefBetweenBuns(bunsAndBeef));`
 
-};
+`};`
 
-// Make and serve burger
+`// Make and serve burger`
 
-makeBurger().then(burger => serve(burger));
+`makeBurger().then(burger => serve(burger));`
 
 #### *Async & await*
 
