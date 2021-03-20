@@ -1,0 +1,14 @@
+{
+  "name": "6_blocking_vs_non_blocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blocking-vs-non-blocking.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
