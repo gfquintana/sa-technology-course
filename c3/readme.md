@@ -2,7 +2,7 @@
 Node.js® es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de Chrome.
 
 Si bien Javascript es un lenguaje diseñado para ser ejecutado en los navegadores web, hoy también es comúnmente utilizado del lado del servidor.
-Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación ECMAScript, asíncrono, con I/O de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google1.
+Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación ECMAScript, asíncrono, con I/O de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google.
 
 - Javascript en el backend
 - Wrapper alrededor un VM como V8
