@@ -9,7 +9,7 @@ Node.js es un entorno en tiempo de ejecución multiplataforma, de código abiert
 - Platform for tools
 
 Una aplicación Node.js se ejecuta en un solo proceso, sin crear nuevos threads por cada request.
-Node.js cuenta con un conjunto de de operaciones de I/O en su librería estándar que evita tener código JS bloqueante, de hecho las librerías escritas para Node.js tienen como norma no utilizar código bloqueante. Ejecutar código con ese comportamiento es realmente una excepción.
+Node.js cuenta con un conjunto de operaciones de I/O en su librería estándar que evita tener código JS bloqueante, de hecho las librerías escritas para Node.js tienen como norma no utilizar código bloqueante. Ejecutar código con ese comportamiento es realmente una excepción.
 Cuando Node.js tiene que hacer una operación de I/O (lectura desde la red, acceso a filesystem, etc.), en vez de bloquear el thread esperando por un resultado, continuará con la ejecución y volverá a la operación cuando tenga un resultado. Este es el secreto que permite a Node.js manejar miles de conexiones concurrentes con un solo servidor de manera eficiente.
 El objetivo de este práctico es entender cómo funciona Javascript en runtime. Se realizarán ejercicios en un simulador, en el navegador y también en Node.js
 
